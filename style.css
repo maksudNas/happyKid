@@ -584,6 +584,10 @@ button {
 
 @media (max-width: 625px) {
 
+    html {
+        overflow-x: hidden;
+    }
+
 
     .header__list {
         position: absolute;
