@@ -24,11 +24,17 @@ const menuBtn = document.querySelector('.menu-btn');
 const menuList = document.querySelector('.header__list');
 const menuLink = document.querySelectorAll('.header__link');
 const Btn = document.querySelector('.btn');
-const headerContent = document.querySelector('.header__content');
+const bannerContent = document.querySelector('.banner__content');
 
 menuBtn.addEventListener('click', () => {
     menuList.classList.toggle('open');
     menuBtn.classList.toggle('open');
+});
+
+
+bannerContent.addEventListener('click', ()=> {
+    menuList.classList.remove('open')
+    menuBtn.classList.remove('open')
 });
 
 
