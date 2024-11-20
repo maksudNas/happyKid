@@ -729,6 +729,10 @@ button {
 
 
 @media (max-width: 685px) {
+    html {
+        overflow-x: hidden;
+    }
+
 
 
     .header__inner {
