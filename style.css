@@ -651,9 +651,13 @@ button {
         width: 145px;
     }
 
+    
+
     .header__list.open {
         right: 0;
     }
+
+    
     
     .menu-btn {
         display: flex;
