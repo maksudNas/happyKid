@@ -636,16 +636,17 @@ button {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 300px;
+        width: 100%;
         font-size: 32px;
         background-color: #ffffff;
         color: black;
         padding: 40px;
         gap: 80px 0;
         border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
         top: 0px;
         right: 0px;
-        transform: translateX(100%);
+        transform: translateY(-100%);
         transition: .5s;
     }
 
@@ -656,23 +657,28 @@ button {
     
 
     .header__list.open {
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 
     
     
     .menu-btn {
+        z-index: 5;
         display: flex;
         margin-bottom: 10px;
         margin-left: 10px;
+
     }
     .menu-btn.open .one {
         transform: translate(0, 10px) rotate(45deg);
+        background-color: black;
     }
     .menu-btn.open .three {
         transform: translate(0, -10px) rotate(135deg);
+        background-color: black;
     }
     .menu-btn.open .two {
+        background-color: black;
         background-color: rgba(189, 189, 189, 0);
     }
    
@@ -735,7 +741,7 @@ button {
 
 
 @media (max-width: 685px) {
-    
+
     html, body {
         box-sizing: border-box;
         scroll-behavior: smooth;
