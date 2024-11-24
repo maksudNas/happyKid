@@ -42,7 +42,7 @@ bannerContent.addEventListener('click', ()=> {
 
 
 
-// Показать форму при нажатии на кнопку
+// // Показать форму при нажатии на кнопку
 // const showFormButton = document.getElementById('showFormButton');
 // const contactForm = document.getElementById('contactForm');
 // showFormButton.addEventListener('click', () => {
