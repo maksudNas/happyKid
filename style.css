@@ -799,7 +799,8 @@ button {
     }
 
     .about__inner {
-        padding-left: 0;
+        padding-left: 0px;
+        padding-right: 15px;
     }
 
     .about__text-first {
