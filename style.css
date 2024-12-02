@@ -349,6 +349,7 @@ button {
 }
 
 .about__text-first {
+    padding-right: 20px;
     font-size: 32px;
 }
 
@@ -779,8 +780,9 @@ button {
     }
 
     .banner__text {
-        gap: 5px;
+        gap: 10px;
         margin-left: 10px;
+        padding-right: 10px;
     }
 
     .banner__h1 {
