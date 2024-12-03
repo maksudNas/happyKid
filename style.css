@@ -424,6 +424,13 @@ button {
     border-radius: 10px;
 }
 
+.swiper-pagination {
+    position: relative !important;
+    top: 15px !important;
+    left: -10px !important;
+
+}
+
 /* services section */
 
 
@@ -832,6 +839,13 @@ button {
     .swiper-slide img {
         width: 79%;
     }
+
+
+    .swiper-pagination {
+        left: -40px !important;
+    
+    }
+    
     
     .review-cart {
         width: 240px;
@@ -938,4 +952,34 @@ button {
 
 
 
+}
+
+@media (max-width: 450px) {
+    .swiper-container {
+        margin-left: 75px;
+    }
+
+    .swiper-pagination {
+        left: -70px !important;
+    
+    }
+
+    .swiper-slide img {
+        width: 65%;
+    }
+}
+
+@media (max-width: 391px) {
+    .swiper-container {
+        margin-left: 60px;
+    }
+
+    .swiper-pagination {
+        left: -60px !important;
+    
+    }
+
+    .swiper-slide img {
+        width: 70%;
+    }
 }

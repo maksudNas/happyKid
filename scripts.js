@@ -17,6 +17,11 @@ const swiper1 = new Swiper('.swiper-container', {
             spaceBetween: 40,
         },
     },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+
+    }
 });
 
 // бурег меню
