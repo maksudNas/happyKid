@@ -615,6 +615,13 @@ button {
     font-size: 24px;
 }
 
+.requisites {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
 .footer__contects {
     display: flex;
     align-items: center;
@@ -622,6 +629,23 @@ button {
     gap: 10px;
 }
 
+.requisites__inner {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.requisites__form {
+    width: 700px;
+    padding: 30px;
+    line-height: 1.5;
+    border: solid rgb(179, 179, 179) 2px;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+}
 
 
 @media (max-width: 1000px) {
@@ -915,6 +939,10 @@ button {
         justify-content: space-between;
     }
 
+    .requisites {
+        font-size: 14px;
+    }
+
     .footer__number {
         width: 100px;
     }
@@ -966,6 +994,15 @@ button {
 
     .swiper-slide img {
         width: 65%;
+    }
+
+    .requisites__inner{
+        margin-top: 60px;
+    }
+    .requisites__form {
+        width: 300px;
+        font-size: 12px;
+
     }
 }
 
